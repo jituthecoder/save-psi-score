@@ -1,0 +1,25 @@
+{
+  "name": "save-psi-score",
+  "version": "1.0.0",
+  "description": "It will store the PSI report and screenshot on the hostinger server and save the path in the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jituthecoder/save-psi-score.git"
+  },
+  "author": "Dev121",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jituthecoder/save-psi-score/issues"
+  },
+  "homepage": "https://github.com/jituthecoder/save-psi-score#readme",
+  "dependencies": {
+    "date-fns": "^3.0.5",
+    "https": "^1.0.0",
+    "mysql2": "^3.6.5",
+    "puppeteer": "^21.6.1"
+  }
+}
